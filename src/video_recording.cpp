@@ -1,41 +1,40 @@
 #include <librealsense2/rs.hpp>
-//#include <imgui.h>
-//#include "imgui_impl_glfw.h"
-#include <opencv2/opencv.hpp>
-using namespace std;
-using namespace cv;
+#include <iostream>
+
+
 
 int main()
 {
-	rs2::pipeline pipe;
-	//Create a configuration for configuring the pipeline with a non default profile
-    rs2::config cfg;
+    // Use to hold a data from camera
+    rs2::frameset frames;
+    
+    int fps = 24;
 
-    //Add desired streams to configuration
-    cfg.enable_stream(RS2_STREAM_COLOR, 640, 480, RS2_FORMAT_BGR8, 30);
-
-    //Instruct pipeline to start streaming with the requested configuration
-    pipe.start(cfg);
+    // Create a pipeline as a virtual representation of the device
+	auto pipe = std::make_shared<rs2::pipeline>();
+    rs2::config cfg; // Config the device to record video for a fps of 24 
 
     // Camera warmup - dropping several first frames to let auto-exposure stabilize
-    rs2::frameset frames;
     for(int i = 0; i < 30; i++)
     {
-        //Wait for all configured streams to produce a frame
+        Wait for all configured streams to produce a frame
         frames = pipe.wait_for_frames();
     }
+    // Initialize a shared pointer to a device with the current device on the pipeline
+    //rs2::device device = pipe->get_active_profile().get_device();
 
-    //Get each frame
-    rs2::frame color_frame = frames.get_color_frame();
+    cfg.enable_stream(RS2_STREAM_COLOR, RS2_FORMAT_ANY, fps)
+    cfg.enable_record_to_file("video.bag");
+    pipe->start(cfg); //File will be opened at this point
+    
+    int total_frame_count = 0;
 
-    // Creating OpenCV Matrix from a color image
-    Mat color(Size(640, 480), CV_8UC3, (void*)color_frame.get_data(), Mat::AUTO_STEP);
+    while (total_frame_count < fps * 60)
+    {
+        frames = pipe.wait_for_frames();
+        total_frame_count += frames.size();
+    }   
 
-    // Display in a GUI
-    namedWindow("Display Image", WINDOW_AUTOSIZE );
-    imshow("Display Image", color);
-
-    waitKey(0);
-
+    pipe->stop()
     return 0;
 }
