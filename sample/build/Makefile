@@ -129,29 +129,29 @@ video_record/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/build
 .PHONY : video_record/fast
 
-opencv_play_video.o: opencv_play_video.cpp.o
-.PHONY : opencv_play_video.o
+record_laptop_cam.o: record_laptop_cam.cpp.o
+.PHONY : record_laptop_cam.o
 
 # target to build an object file
-opencv_play_video.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/opencv_play_video.cpp.o
-.PHONY : opencv_play_video.cpp.o
+record_laptop_cam.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/record_laptop_cam.cpp.o
+.PHONY : record_laptop_cam.cpp.o
 
-opencv_play_video.i: opencv_play_video.cpp.i
-.PHONY : opencv_play_video.i
+record_laptop_cam.i: record_laptop_cam.cpp.i
+.PHONY : record_laptop_cam.i
 
 # target to preprocess a source file
-opencv_play_video.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/opencv_play_video.cpp.i
-.PHONY : opencv_play_video.cpp.i
+record_laptop_cam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/record_laptop_cam.cpp.i
+.PHONY : record_laptop_cam.cpp.i
 
-opencv_play_video.s: opencv_play_video.cpp.s
-.PHONY : opencv_play_video.s
+record_laptop_cam.s: record_laptop_cam.cpp.s
+.PHONY : record_laptop_cam.s
 
 # target to generate assembly for a file
-opencv_play_video.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/opencv_play_video.cpp.s
-.PHONY : opencv_play_video.cpp.s
+record_laptop_cam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/record_laptop_cam.cpp.s
+.PHONY : record_laptop_cam.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... video_record"
-	@echo "... opencv_play_video.o"
-	@echo "... opencv_play_video.i"
-	@echo "... opencv_play_video.s"
+	@echo "... record_laptop_cam.o"
+	@echo "... record_laptop_cam.i"
+	@echo "... record_laptop_cam.s"
 .PHONY : help
 
 

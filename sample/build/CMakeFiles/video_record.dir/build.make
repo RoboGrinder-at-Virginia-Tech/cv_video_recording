@@ -69,28 +69,28 @@ include CMakeFiles/video_record.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/video_record.dir/flags.make
 
-CMakeFiles/video_record.dir/opencv_play_video.cpp.o: CMakeFiles/video_record.dir/flags.make
-CMakeFiles/video_record.dir/opencv_play_video.cpp.o: /home/fatfat/RoboGrinders/video_recording/sample/opencv_play_video.cpp
-CMakeFiles/video_record.dir/opencv_play_video.cpp.o: CMakeFiles/video_record.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fatfat/RoboGrinders/video_recording/sample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_record.dir/opencv_play_video.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_record.dir/opencv_play_video.cpp.o -MF CMakeFiles/video_record.dir/opencv_play_video.cpp.o.d -o CMakeFiles/video_record.dir/opencv_play_video.cpp.o -c /home/fatfat/RoboGrinders/video_recording/sample/opencv_play_video.cpp
+CMakeFiles/video_record.dir/record_laptop_cam.cpp.o: CMakeFiles/video_record.dir/flags.make
+CMakeFiles/video_record.dir/record_laptop_cam.cpp.o: /home/fatfat/RoboGrinders/video_recording/sample/record_laptop_cam.cpp
+CMakeFiles/video_record.dir/record_laptop_cam.cpp.o: CMakeFiles/video_record.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fatfat/RoboGrinders/video_recording/sample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_record.dir/record_laptop_cam.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_record.dir/record_laptop_cam.cpp.o -MF CMakeFiles/video_record.dir/record_laptop_cam.cpp.o.d -o CMakeFiles/video_record.dir/record_laptop_cam.cpp.o -c /home/fatfat/RoboGrinders/video_recording/sample/record_laptop_cam.cpp
 
-CMakeFiles/video_record.dir/opencv_play_video.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video_record.dir/opencv_play_video.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fatfat/RoboGrinders/video_recording/sample/opencv_play_video.cpp > CMakeFiles/video_record.dir/opencv_play_video.cpp.i
+CMakeFiles/video_record.dir/record_laptop_cam.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video_record.dir/record_laptop_cam.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fatfat/RoboGrinders/video_recording/sample/record_laptop_cam.cpp > CMakeFiles/video_record.dir/record_laptop_cam.cpp.i
 
-CMakeFiles/video_record.dir/opencv_play_video.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_record.dir/opencv_play_video.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatfat/RoboGrinders/video_recording/sample/opencv_play_video.cpp -o CMakeFiles/video_record.dir/opencv_play_video.cpp.s
+CMakeFiles/video_record.dir/record_laptop_cam.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_record.dir/record_laptop_cam.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fatfat/RoboGrinders/video_recording/sample/record_laptop_cam.cpp -o CMakeFiles/video_record.dir/record_laptop_cam.cpp.s
 
 # Object files for target video_record
 video_record_OBJECTS = \
-"CMakeFiles/video_record.dir/opencv_play_video.cpp.o"
+"CMakeFiles/video_record.dir/record_laptop_cam.cpp.o"
 
 # External object files for target video_record
 video_record_EXTERNAL_OBJECTS =
 
-video_record: CMakeFiles/video_record.dir/opencv_play_video.cpp.o
+video_record: CMakeFiles/video_record.dir/record_laptop_cam.cpp.o
 video_record: CMakeFiles/video_record.dir/build.make
 video_record: /usr/local/lib/librealsense2.so.2.51.1
 video_record: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.2.0
