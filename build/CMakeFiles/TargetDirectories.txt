@@ -1,0 +1,3 @@
+/home/fatfat/RoboGrinders/video_recording/build/CMakeFiles/video_record.dir
+/home/fatfat/RoboGrinders/video_recording/build/CMakeFiles/edit_cache.dir
+/home/fatfat/RoboGrinders/video_recording/build/CMakeFiles/rebuild_cache.dir
