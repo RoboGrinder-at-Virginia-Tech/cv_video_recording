@@ -1,6 +1,7 @@
 #include <librealsense2/rs.hpp>
 #include <opencv2/core.hpp>
 #include <opencv2/opencv.hpp>
+#include <opencv2/videoio.hpp>
 #include <iostream>
 #include "VideoRecorder.h"
 
@@ -15,31 +16,44 @@ VideoRecorder::VideoRecorder()
 int VideoRecorder::record() try
 {
 	std::cout << "record!" << std::endl;
-	rs2::pipeline pipe;
+	auto pipe = std::make_shared<rs2::pipeline>();
 	rs2::config cfg;
 	cfg.enable_stream(RS2_STREAM_COLOR, 640, 480, RS2_FORMAT_BGR8, 30);
-	pipe.start(cfg);
+	pipe->start(cfg);
+
+
+	
 
 	rs2::frameset frames;
 	for (int i = 0; i < 30; i++)
     {
-    	frames = pipe.wait_for_frames();
-    }
+    	frames = pipe->wait_for_frames();
 
-	rs2::frame color;
+    }
+   	rs2::frame color = frames.get_color_frame();
+   	Mat image = Mat(Size(640, 480), CV_8UC3, (void*)color.get_data(), Mat::AUTO_STEP);
+
+   	Size size = image.size();
+
+    // Generate VideoWriter using filename, codec, fps, and framesize
+	VideoWriter videoWriter("video.mp4", VideoWriter::fourcc('m', 'p', '4', 'v'), 30.0, size, true);
 
 	while (true) 
 	{
-		frames = pipe.wait_for_frames();
+		frames = pipe->wait_for_frames();
 		color = frames.get_color_frame();
 		
-		Mat image(Size(640, 480), CV_8UC3, (void*)color.get_data(), Mat::AUTO_STEP);
+		image = Mat(Size(640, 480), CV_8UC3, (void*)color.get_data(), Mat::AUTO_STEP);
 		imshow("Display video", image);
+
+		// Write frame to videoWriter
+		videoWriter.write(image);
+
 		if ((char)waitKey(1) == 27)
 			break;
 	}
 
-	pipe.stop();
+	pipe->stop();
 	destroyAllWindows();
 
     return 0;

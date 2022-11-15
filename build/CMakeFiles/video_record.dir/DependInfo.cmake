@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/fatfat/RoboGrinders/video_recording/main.cpp" "CMakeFiles/video_record.dir/main.cpp.o" "gcc" "CMakeFiles/video_record.dir/main.cpp.o.d"
+  "/home/fatfat/RoboGrinders/video_recording/src/VideoRecorder.cpp" "CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o" "gcc" "CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o.d"
   )
 
 # Targets to which this target links.

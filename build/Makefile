@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/VideoRecorder.o: src/VideoRecorder.cpp.o
+.PHONY : src/VideoRecorder.o
+
+# target to build an object file
+src/VideoRecorder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o
+.PHONY : src/VideoRecorder.cpp.o
+
+src/VideoRecorder.i: src/VideoRecorder.cpp.i
+.PHONY : src/VideoRecorder.i
+
+# target to preprocess a source file
+src/VideoRecorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/src/VideoRecorder.cpp.i
+.PHONY : src/VideoRecorder.cpp.i
+
+src/VideoRecorder.s: src/VideoRecorder.cpp.s
+.PHONY : src/VideoRecorder.s
+
+# target to generate assembly for a file
+src/VideoRecorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_record.dir/build.make CMakeFiles/video_record.dir/src/VideoRecorder.cpp.s
+.PHONY : src/VideoRecorder.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/VideoRecorder.o"
+	@echo "... src/VideoRecorder.i"
+	@echo "... src/VideoRecorder.s"
 .PHONY : help
 
 
