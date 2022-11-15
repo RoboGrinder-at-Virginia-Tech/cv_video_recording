@@ -15,28 +15,23 @@ VideoRecorder::VideoRecorder()
 
 int VideoRecorder::record() try
 {
-	std::cout << "record!" << std::endl;
+	// Config and start pipeline to stream on 30FPS
 	auto pipe = std::make_shared<rs2::pipeline>();
 	rs2::config cfg;
 	cfg.enable_stream(RS2_STREAM_COLOR, 640, 480, RS2_FORMAT_BGR8, 30);
 	pipe->start(cfg);
-
-
 	
+	// Generate VideoWriter using filename, codec, fps, and framesize
+	VideoWriter videoWriter("video.mp4", VideoWriter::fourcc('m', 'p', '4', 'v'), 30.0, Size(640, 480), true);
 
 	rs2::frameset frames;
+	rs2::frame color;
+	Mat image;
 	for (int i = 0; i < 30; i++)
     {
     	frames = pipe->wait_for_frames();
-
     }
-   	rs2::frame color = frames.get_color_frame();
-   	Mat image = Mat(Size(640, 480), CV_8UC3, (void*)color.get_data(), Mat::AUTO_STEP);
-
-   	Size size = image.size();
-
-    // Generate VideoWriter using filename, codec, fps, and framesize
-	VideoWriter videoWriter("video.mp4", VideoWriter::fourcc('m', 'p', '4', 'v'), 30.0, size, true);
+ 
 
 	while (true) 
 	{
