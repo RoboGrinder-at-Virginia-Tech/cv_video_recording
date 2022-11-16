@@ -6,6 +6,7 @@
 #include "VideoRecorder.h"
 
 using namespace cv;
+using namespace std::chrono_literals;
 
 VideoRecorder::VideoRecorder()
 {
@@ -31,9 +32,10 @@ int VideoRecorder::record() try
     {
     	frames = pipe->wait_for_frames();
     }
- 
 
-	while (true) 
+ 	auto finish = std::chrono::system_clock::now() + 1min;
+
+	while (std::chrono::system_clock::now() <= finish) 
 	{
 		frames = pipe->wait_for_frames();
 		color = frames.get_color_frame();

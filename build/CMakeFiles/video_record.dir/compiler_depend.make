@@ -7,11 +7,7 @@ CMakeFiles/video_record.dir/main.cpp.o: /home/fatfat/RoboGrinders/video_recordin
 
 CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/video_recording/src/VideoRecorder.cpp \
   /usr/include/stdc-predef.h \
-  /usr/local/include/librealsense2/rs.hpp \
-  /usr/local/include/librealsense2/rs.h \
-  /usr/local/include/librealsense2/rsutil.h \
-  /usr/include/c++/9/stdlib.h \
-  /usr/include/c++/9/cstdlib \
+  /usr/include/c++/9/iostream \
   /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h \
   /usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h \
   /usr/include/features.h \
@@ -21,53 +17,177 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/c++/9/bits/cpu_defines.h \
-  /usr/include/stdlib.h \
+  /usr/include/c++/9/ostream \
+  /usr/include/c++/9/ios \
+  /usr/include/c++/9/iosfwd \
+  /usr/include/c++/9/bits/stringfwd.h \
+  /usr/include/c++/9/bits/memoryfwd.h \
+  /usr/include/c++/9/bits/postypes.h \
+  /usr/include/c++/9/cwchar \
+  /usr/include/wchar.h \
   /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/aarch64-linux-gnu/9/include/stddef.h \
-  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
-  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
   /usr/include/aarch64-linux-gnu/bits/floatn.h \
   /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/9/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/9/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/c++/9/exception \
+  /usr/include/c++/9/bits/exception.h \
+  /usr/include/c++/9/bits/exception_ptr.h \
+  /usr/include/c++/9/bits/exception_defines.h \
+  /usr/include/c++/9/bits/cxxabi_init_exception.h \
+  /usr/include/c++/9/typeinfo \
+  /usr/include/c++/9/bits/hash_bytes.h \
+  /usr/include/c++/9/new \
+  /usr/include/c++/9/bits/nested_exception.h \
+  /usr/include/c++/9/bits/move.h \
+  /usr/include/c++/9/bits/concept_check.h \
+  /usr/include/c++/9/type_traits \
+  /usr/include/c++/9/bits/char_traits.h \
+  /usr/include/c++/9/bits/stl_algobase.h \
+  /usr/include/c++/9/bits/functexcept.h \
+  /usr/include/c++/9/bits/cpp_type_traits.h \
+  /usr/include/c++/9/ext/type_traits.h \
+  /usr/include/c++/9/ext/numeric_traits.h \
+  /usr/include/c++/9/bits/stl_pair.h \
+  /usr/include/c++/9/bits/stl_iterator_base_types.h \
+  /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/9/debug/assertions.h \
+  /usr/include/c++/9/bits/stl_iterator.h \
+  /usr/include/c++/9/bits/ptr_traits.h \
+  /usr/include/c++/9/debug/debug.h \
+  /usr/include/c++/9/bits/predefined_ops.h \
+  /usr/include/c++/9/cstdint \
+  /usr/lib/gcc/aarch64-linux-gnu/9/include/stdint.h \
+  /usr/include/stdint.h \
   /usr/include/aarch64-linux-gnu/bits/types.h \
   /usr/include/aarch64-linux-gnu/bits/timesize.h \
   /usr/include/aarch64-linux-gnu/bits/typesizes.h \
   /usr/include/aarch64-linux-gnu/bits/time64.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/9/bits/localefwd.h \
+  /usr/include/aarch64-linux-gnu/c++/9/bits/c++locale.h \
+  /usr/include/c++/9/clocale \
+  /usr/include/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
+  /usr/include/c++/9/cctype \
+  /usr/include/ctype.h \
   /usr/include/aarch64-linux-gnu/bits/endian.h \
   /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/9/bits/ios_base.h \
+  /usr/include/c++/9/ext/atomicity.h \
+  /usr/include/aarch64-linux-gnu/c++/9/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/9/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/c++/9/bits/atomic_word.h \
+  /usr/include/c++/9/bits/locale_classes.h \
+  /usr/include/c++/9/string \
+  /usr/include/c++/9/bits/allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/9/bits/c++allocator.h \
+  /usr/include/c++/9/ext/new_allocator.h \
+  /usr/include/c++/9/bits/ostream_insert.h \
+  /usr/include/c++/9/bits/cxxabi_forced.h \
+  /usr/include/c++/9/bits/stl_function.h \
+  /usr/include/c++/9/backward/binders.h \
+  /usr/include/c++/9/bits/range_access.h \
+  /usr/include/c++/9/initializer_list \
+  /usr/include/c++/9/bits/basic_string.h \
+  /usr/include/c++/9/ext/alloc_traits.h \
+  /usr/include/c++/9/bits/alloc_traits.h \
+  /usr/include/c++/9/ext/string_conversions.h \
+  /usr/include/c++/9/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
   /usr/include/aarch64-linux-gnu/bits/byteswap.h \
   /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
   /usr/include/aarch64-linux-gnu/sys/select.h \
   /usr/include/aarch64-linux-gnu/bits/select.h \
   /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/9/bits/std_abs.h \
+  /usr/include/c++/9/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/sys_errlist.h \
+  /usr/include/c++/9/cerrno \
+  /usr/include/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/9/bits/functional_hash.h \
+  /usr/include/c++/9/bits/basic_string.tcc \
+  /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/system_error \
+  /usr/include/aarch64-linux-gnu/c++/9/bits/error_constants.h \
+  /usr/include/c++/9/stdexcept \
+  /usr/include/c++/9/streambuf \
+  /usr/include/c++/9/bits/streambuf.tcc \
+  /usr/include/c++/9/bits/basic_ios.h \
+  /usr/include/c++/9/bits/locale_facets.h \
+  /usr/include/c++/9/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/9/bits/ctype_base.h \
+  /usr/include/c++/9/bits/streambuf_iterator.h \
+  /usr/include/aarch64-linux-gnu/c++/9/bits/ctype_inline.h \
+  /usr/include/c++/9/bits/locale_facets.tcc \
+  /usr/include/c++/9/bits/basic_ios.tcc \
+  /usr/include/c++/9/bits/ostream.tcc \
+  /usr/include/c++/9/istream \
+  /usr/include/c++/9/bits/istream.tcc \
+  /usr/include/c++/9/chrono \
+  /usr/include/c++/9/ratio \
+  /usr/include/c++/9/limits \
+  /usr/include/c++/9/ctime \
+  /usr/include/c++/9/bits/parse_numbers.h \
+  /usr/local/include/librealsense2/rs.hpp \
+  /usr/local/include/librealsense2/rs.h \
+  /usr/local/include/librealsense2/rsutil.h \
+  /usr/include/c++/9/stdlib.h \
   /usr/lib/gcc/aarch64-linux-gnu/9/include/stdbool.h \
-  /usr/lib/gcc/aarch64-linux-gnu/9/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/9/math.h \
   /usr/include/c++/9/cmath \
-  /usr/include/c++/9/bits/cpp_type_traits.h \
-  /usr/include/c++/9/ext/type_traits.h \
   /usr/include/math.h \
   /usr/include/aarch64-linux-gnu/bits/math-vector.h \
   /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -100,97 +220,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/local/include/librealsense2/h/rs_sensor.h \
   /usr/local/include/librealsense2/h/rs_pipeline.h \
   /usr/local/include/librealsense2/h/rs_config.h \
-  /usr/include/c++/9/string \
-  /usr/include/c++/9/bits/stringfwd.h \
-  /usr/include/c++/9/bits/memoryfwd.h \
-  /usr/include/c++/9/bits/char_traits.h \
-  /usr/include/c++/9/bits/stl_algobase.h \
-  /usr/include/c++/9/bits/functexcept.h \
-  /usr/include/c++/9/bits/exception_defines.h \
-  /usr/include/c++/9/ext/numeric_traits.h \
-  /usr/include/c++/9/bits/stl_pair.h \
-  /usr/include/c++/9/bits/move.h \
-  /usr/include/c++/9/bits/concept_check.h \
-  /usr/include/c++/9/type_traits \
-  /usr/include/c++/9/bits/stl_iterator_base_types.h \
-  /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/9/debug/assertions.h \
-  /usr/include/c++/9/bits/stl_iterator.h \
-  /usr/include/c++/9/bits/ptr_traits.h \
-  /usr/include/c++/9/debug/debug.h \
-  /usr/include/c++/9/bits/predefined_ops.h \
-  /usr/include/c++/9/bits/postypes.h \
-  /usr/include/c++/9/cwchar \
-  /usr/include/wchar.h \
-  /usr/lib/gcc/aarch64-linux-gnu/9/include/stdarg.h \
-  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
-  /usr/include/c++/9/cstdint \
-  /usr/include/c++/9/bits/allocator.h \
-  /usr/include/aarch64-linux-gnu/c++/9/bits/c++allocator.h \
-  /usr/include/c++/9/ext/new_allocator.h \
-  /usr/include/c++/9/new \
-  /usr/include/c++/9/exception \
-  /usr/include/c++/9/bits/exception.h \
-  /usr/include/c++/9/bits/exception_ptr.h \
-  /usr/include/c++/9/bits/cxxabi_init_exception.h \
-  /usr/include/c++/9/typeinfo \
-  /usr/include/c++/9/bits/hash_bytes.h \
-  /usr/include/c++/9/bits/nested_exception.h \
-  /usr/include/c++/9/bits/localefwd.h \
-  /usr/include/aarch64-linux-gnu/c++/9/bits/c++locale.h \
-  /usr/include/c++/9/clocale \
-  /usr/include/locale.h \
-  /usr/include/aarch64-linux-gnu/bits/locale.h \
-  /usr/include/c++/9/iosfwd \
-  /usr/include/c++/9/cctype \
-  /usr/include/ctype.h \
-  /usr/include/c++/9/bits/ostream_insert.h \
-  /usr/include/c++/9/bits/cxxabi_forced.h \
-  /usr/include/c++/9/bits/stl_function.h \
-  /usr/include/c++/9/backward/binders.h \
-  /usr/include/c++/9/bits/range_access.h \
-  /usr/include/c++/9/initializer_list \
-  /usr/include/c++/9/bits/basic_string.h \
-  /usr/include/c++/9/ext/atomicity.h \
-  /usr/include/aarch64-linux-gnu/c++/9/bits/gthr.h \
-  /usr/include/aarch64-linux-gnu/c++/9/bits/gthr-default.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/sched.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
-  /usr/include/time.h \
-  /usr/include/aarch64-linux-gnu/bits/time.h \
-  /usr/include/aarch64-linux-gnu/bits/timex.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
-  /usr/include/aarch64-linux-gnu/c++/9/bits/atomic_word.h \
-  /usr/include/c++/9/ext/alloc_traits.h \
-  /usr/include/c++/9/bits/alloc_traits.h \
-  /usr/include/c++/9/ext/string_conversions.h \
-  /usr/include/c++/9/cstdio \
-  /usr/include/stdio.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/sys_errlist.h \
-  /usr/include/c++/9/cerrno \
-  /usr/include/errno.h \
-  /usr/include/aarch64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/aarch64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
-  /usr/include/c++/9/bits/functional_hash.h \
-  /usr/include/c++/9/bits/basic_string.tcc \
   /usr/include/c++/9/vector \
   /usr/include/c++/9/bits/stl_construct.h \
   /usr/include/c++/9/bits/stl_uninitialized.h \
@@ -207,7 +236,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/c++/9/bits/stl_relops.h \
   /usr/include/c++/9/tuple \
   /usr/include/c++/9/array \
-  /usr/include/c++/9/stdexcept \
   /usr/include/c++/9/bits/invoke.h \
   /usr/include/c++/9/bits/shared_ptr.h \
   /usr/include/c++/9/bits/shared_ptr_base.h \
@@ -221,36 +249,9 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/c++/9/functional \
   /usr/include/c++/9/bits/std_function.h \
   /usr/include/c++/9/iterator \
-  /usr/include/c++/9/ostream \
-  /usr/include/c++/9/ios \
-  /usr/include/c++/9/bits/ios_base.h \
-  /usr/include/c++/9/bits/locale_classes.h \
-  /usr/include/c++/9/bits/locale_classes.tcc \
-  /usr/include/c++/9/system_error \
-  /usr/include/aarch64-linux-gnu/c++/9/bits/error_constants.h \
-  /usr/include/c++/9/streambuf \
-  /usr/include/c++/9/bits/streambuf.tcc \
-  /usr/include/c++/9/bits/basic_ios.h \
-  /usr/include/c++/9/bits/locale_facets.h \
-  /usr/include/c++/9/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/aarch64-linux-gnu/c++/9/bits/ctype_base.h \
-  /usr/include/c++/9/bits/streambuf_iterator.h \
-  /usr/include/aarch64-linux-gnu/c++/9/bits/ctype_inline.h \
-  /usr/include/c++/9/bits/locale_facets.tcc \
-  /usr/include/c++/9/bits/basic_ios.tcc \
-  /usr/include/c++/9/bits/ostream.tcc \
-  /usr/include/c++/9/istream \
-  /usr/include/c++/9/bits/istream.tcc \
   /usr/include/c++/9/bits/stream_iterator.h \
   /usr/include/c++/9/sstream \
   /usr/include/c++/9/bits/sstream.tcc \
-  /usr/include/c++/9/chrono \
-  /usr/include/c++/9/ratio \
-  /usr/include/c++/9/limits \
-  /usr/include/c++/9/ctime \
-  /usr/include/c++/9/bits/parse_numbers.h \
   /usr/local/include/librealsense2/hpp/rs_context.hpp \
   /usr/local/include/librealsense2/hpp/rs_types.hpp \
   /usr/local/include/librealsense2/hpp/rs_record_playback.hpp \
@@ -266,6 +267,8 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/local/include/librealsense2/hpp/rs_sensor.hpp \
   /usr/local/include/librealsense2/hpp/rs_pipeline.hpp \
   /usr/local/include/librealsense2/hpp/rs_context.hpp \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/opencv4/opencv2/core.hpp \
   /usr/include/opencv4/opencv2/core/cvdef.h \
   /usr/lib/gcc/aarch64-linux-gnu/9/include/limits.h \
@@ -284,7 +287,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/lib/gcc/aarch64-linux-gnu/9/include/arm_fp16.h \
   /usr/include/opencv4/opencv2/core/version.hpp \
   /usr/include/opencv4/opencv2/core/base.hpp \
-  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/c++/9/climits \
   /usr/include/c++/9/algorithm \
   /usr/include/c++/9/bits/stl_algo.h \
@@ -320,7 +322,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/opencv4/opencv2/core/optim.hpp \
   /usr/include/opencv4/opencv2/core/ovx.hpp \
   /usr/include/opencv4/opencv2/core/cvdef.h \
-  /usr/include/opencv4/opencv2/opencv.hpp \
   /usr/include/opencv4/opencv2/calib3d.hpp \
   /usr/include/opencv4/opencv2/features2d.hpp \
   /usr/include/opencv4/opencv2/flann/miniflann.hpp \
@@ -349,7 +350,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/opencv4/opencv2/flann/params.h \
   /usr/include/opencv4/opencv2/flann/any.h \
   /usr/include/opencv4/opencv2/flann/defines.h \
-  /usr/include/c++/9/iostream \
   /usr/include/opencv4/opencv2/flann/saving.h \
   /usr/include/opencv4/opencv2/flann/nn_index.h \
   /usr/include/opencv4/opencv2/flann/result_set.h \
@@ -612,8 +612,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/opencv4/opencv2/calib3d.hpp:
 
-/usr/include/opencv4/opencv2/opencv.hpp:
-
 /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
 
 /usr/include/opencv4/opencv2/core/ovx.hpp:
@@ -682,8 +680,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/climits:
 
-/usr/include/opencv4/opencv2/opencv_modules.hpp:
-
 /usr/include/opencv4/opencv2/core/base.hpp:
 
 /usr/include/c++/9/map:
@@ -698,123 +694,11 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/opencv4/opencv2/core/hal/interface.h:
 
-/usr/include/c++/9/bits/nested_exception.h:
+/usr/include/aarch64-linux-gnu/bits/uio_lim.h:
 
-/usr/include/math.h:
+/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/aarch64-linux-gnu/bits/sched.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/9/cstdio:
-
-/usr/include/opencv4/opencv2/flann/params.h:
-
-/usr/include/c++/9/iterator:
-
-/usr/include/c++/9/bits/exception_ptr.h:
-
-/usr/include/c++/9/exception:
-
-/usr/include/opencv4/opencv2/flann/timer.h:
-
-/usr/include/c++/9/bits/allocator.h:
-
-/usr/lib/gcc/aarch64-linux-gnu/9/include/syslimits.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/9/cmath:
-
-/usr/include/opencv4/opencv2/features2d.hpp:
-
-/usr/include/c++/9/bits/vector.tcc:
-
-/usr/lib/gcc/aarch64-linux-gnu/9/include/stdarg.h:
-
-/usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h:
-
-/usr/include/c++/9/bits/std_mutex.h:
-
-/usr/include/c++/9/ext/new_allocator.h:
-
-/usr/include/c++/9/debug/debug.h:
-
-/usr/include/aarch64-linux-gnu/c++/9/bits/c++io.h:
-
-/usr/include/c++/9/bits/stl_iterator.h:
-
-/usr/include/c++/9/bits/stl_map.h:
-
-/usr/include/c++/9/bits/functexcept.h:
-
-/usr/include/c++/9/debug/assertions.h:
-
-/usr/include/c++/9/string:
-
-/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/9/deque:
-
-/usr/include/c++/9/bits/unique_lock.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/9/bits/istream.tcc:
-
-/usr/include/c++/9/bits/ostream.tcc:
-
-/usr/include/c++/9/type_traits:
-
-/usr/include/c++/9/bits/concept_check.h:
-
-/usr/include/c++/9/bits/move.h:
-
-/usr/include/opencv4/opencv2/flann/kmeans_index.h:
-
-/usr/include/opencv4/opencv2/core/persistence.hpp:
-
-/usr/include/c++/9/ext/numeric_traits.h:
-
-/usr/lib/gcc/aarch64-linux-gnu/9/include/stdbool.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/9/bits/ptr_traits.h:
-
-/usr/include/c++/9/ctime:
-
-/usr/include/c++/9/bits/char_traits.h:
-
-/usr/include/c++/9/bits/memoryfwd.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/9/mutex:
-
-/usr/include/opencv4/opencv2/core/neon_utils.hpp:
-
-/usr/include/c++/9/bits/stringfwd.h:
-
-/usr/local/include/librealsense2/h/rs_config.h:
-
-/usr/local/include/librealsense2/hpp/rs_types.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
-
-/usr/local/include/librealsense2/h/rs_processing.h:
-
-/usr/include/opencv4/opencv2/viz/vizcore.hpp:
-
-/usr/local/include/librealsense2/hpp/rs_frame.hpp:
-
-/usr/local/include/librealsense2/h/rs_option.h:
-
-/usr/include/c++/9/bits/codecvt.h:
-
-/usr/include/features.h:
+/usr/local/include/librealsense2/rs.h:
 
 /usr/include/aarch64-linux-gnu/bits/time64.h:
 
@@ -826,189 +710,91 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/local/include/librealsense2/hpp/rs_record_playback.hpp:
 
-/usr/local/include/librealsense2/h/rs_context.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/opencv4/opencv2/ml.hpp:
-
-/usr/include/c++/9/array:
-
-/usr/include/c++/9/bits/locale_facets_nonio.h:
-
-/usr/include/c++/9/new:
-
-/usr/lib/gcc/aarch64-linux-gnu/9/include/float.h:
-
-/usr/include/aarch64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/c++/9/ext/alloc_traits.h:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/c++/9/ext/alloc_traits.h:
+/usr/include/c++/9/initializer_list:
 
-/usr/include/opencv4/opencv2/videostab/motion_stabilizing.hpp:
+/usr/include/aarch64-linux-gnu/bits/locale.h:
 
-/usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/include/errno.h:
 
-/usr/include/c++/9/bits/cpp_type_traits.h:
-
-/usr/include/c++/9/math.h:
-
-/usr/include/c++/9/ios:
-
-/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
-
-/usr/include/c++/9/backward/auto_ptr.h:
-
-/usr/include/aarch64-linux-gnu/sys/types.h:
-
-/usr/include/opencv4/opencv2/core/cvdef.h:
-
-/usr/include/opencv4/opencv2/flann/flann_base.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/timex.h:
-
-/usr/local/include/librealsense2/h/rs_types.h:
-
-/usr/include/aarch64-linux-gnu/bits/floatn.h:
-
-/usr/include/opencv4/opencv2/core/utility.hpp:
-
-/usr/local/include/librealsense2/h/rs_device.h:
-
-/usr/include/opencv4/opencv2/flann/miniflann.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/aarch64-linux-gnu/bits/long-double.h:
-
-/usr/include/aarch64-linux-gnu/bits/select.h:
-
-/usr/include/aarch64-linux-gnu/c++/9/bits/cpu_defines.h:
-
-/usr/include/c++/9/bits/ios_base.h:
-
-/usr/include/aarch64-linux-gnu/bits/math-vector.h:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs.h:
-
-/usr/local/include/librealsense2/h/rs_frame.h:
+/usr/include/c++/9/bits/ostream_insert.h:
 
 /usr/include/aarch64-linux-gnu/c++/9/bits/c++allocator.h:
 
-/usr/include/aarch64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/c++/9/bits/postypes.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/aarch64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/9/ext/type_traits.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/9/bits/stl_iterator_base_types.h:
-
-/usr/local/include/librealsense2/hpp/rs_context.hpp:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/9/ext/concurrence.h:
-
-/usr/include/opencv4/opencv2/flann/any.h:
-
-/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
-
-/home/fatfat/RoboGrinders/video_recording/src/VideoRecorder.cpp:
-
-/usr/include/c++/9/bits/atomic_base.h:
-
-/usr/include/c++/9/bits/exception_defines.h:
-
-/usr/local/include/librealsense2/hpp/rs_sensor.hpp:
-
-/usr/include/c++/9/bits/stl_algobase.h:
-
-/usr/include/c++/9/bits/stl_pair.h:
-
-/usr/include/opencv4/opencv2/videostab/frame_source.hpp:
-
-/usr/include/c++/9/list:
-
-/usr/local/include/librealsense2/h/rs_pipeline.h:
-
-/home/fatfat/RoboGrinders/video_recording/main.cpp:
-
-/usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h:
-
-/usr/include/aarch64-linux-gnu/sys/select.h:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
-
-/usr/include/opencv4/opencv2/dnn/version.hpp:
-
-/usr/lib/gcc/aarch64-linux-gnu/9/include/stdint.h:
-
 /usr/include/c++/9/stdlib.h:
 
-/usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/aarch64-linux-gnu/c++/9/bits/atomic_word.h:
 
-/usr/include/opencv4/opencv2/imgproc.hpp:
-
-/usr/include/opencv4/opencv2/flann/config.h:
-
-/usr/include/aarch64-linux-gnu/bits/wchar.h:
-
-/usr/include/opencv4/opencv2/viz/viz3d.hpp:
-
-/usr/include/c++/9/bits/hash_bytes.h:
-
-/usr/include/aarch64-linux-gnu/bits/waitflags.h:
+/usr/include/pthread.h:
 
 /usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/aarch64-linux-gnu/bits/setjmp.h:
 
-/usr/local/include/librealsense2/rs.h:
+/usr/include/c++/9/bits/std_mutex.h:
 
-/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
+/usr/include/c++/9/ext/new_allocator.h:
 
-/usr/include/aarch64-linux-gnu/bits/fp-logb.h:
+/usr/lib/gcc/aarch64-linux-gnu/9/include/stdarg.h:
 
-/usr/include/aarch64-linux-gnu/bits/typesizes.h:
+/usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/c++/9/bits/std_abs.h:
+/usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/aarch64-linux-gnu/bits/timesize.h:
+/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
 
-/usr/include/c++/9/bits/stream_iterator.h:
+/usr/include/c++/9/bits/basic_string.h:
+
+/usr/include/c++/9/bits/postypes.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/c++/9/bits/memoryfwd.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/aarch64-linux-gnu/bits/iscanonical.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/9/include/float.h:
+
+/usr/include/c++/9/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/9/ext/string_conversions.h:
+
+/usr/include/aarch64-linux-gnu/bits/sched.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/c++/9/system_error:
 
-/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
+/usr/include/c++/9/streambuf:
 
-/usr/include/locale.h:
+/usr/include/aarch64-linux-gnu/c++/9/bits/gthr.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
+/usr/include/c++/9/ext/atomicity.h:
 
-/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/c++/9/cwchar:
+
+/usr/include/c++/9/bits/range_access.h:
+
+/usr/include/aarch64-linux-gnu/bits/endianness.h:
+
+/usr/include/aarch64-linux-gnu/bits/local_lim.h:
 
 /usr/include/c++/9/bits/unordered_map.h:
 
@@ -1018,13 +804,115 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/ostream:
 
-/usr/include/aarch64-linux-gnu/bits/types/FILE.h:
+/usr/include/c++/9/cwctype:
 
-/usr/include/aarch64-linux-gnu/bits/fp-fast.h:
+/usr/include/aarch64-linux-gnu/sys/types.h:
 
-/usr/include/c++/9/vector:
+/usr/include/opencv4/opencv2/core/cvdef.h:
 
-/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
+/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
+
+/usr/include/c++/9/backward/auto_ptr.h:
+
+/usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/local/include/librealsense2/h/rs_frame.h:
+
+/usr/include/opencv4/opencv2/flann/saving.h:
+
+/usr/include/aarch64-linux-gnu/bits/time.h:
+
+/usr/include/opencv4/opencv2/superres/optical_flow.hpp:
+
+/usr/include/c++/9/ratio:
+
+/usr/include/c++/9/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/9/bits/shared_ptr_atomic.h:
+
+/usr/include/aarch64-linux-gnu/bits/select.h:
+
+/usr/include/opencv4/opencv2/dnn/version.hpp:
+
+/usr/lib/gcc/aarch64-linux-gnu/9/include/stdint.h:
+
+/usr/include/c++/9/debug/debug.h:
+
+/usr/include/c++/9/cctype:
+
+/usr/include/c++/9/bits/predefined_ops.h:
+
+/usr/include/aarch64-linux-gnu/c++/9/bits/gthr-default.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/9/include/stddef.h:
+
+/usr/include/aarch64-linux-gnu/bits/timesize.h:
+
+/usr/include/c++/9/bits/stream_iterator.h:
+
+/usr/include/opencv4/opencv2/imgproc.hpp:
+
+/usr/include/opencv4/opencv2/flann/config.h:
+
+/usr/include/aarch64-linux-gnu/bits/wchar.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/9/queue:
+
+/usr/include/aarch64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/9/cmath:
+
+/usr/include/opencv4/opencv2/features2d.hpp:
+
+/usr/include/c++/9/bits/vector.tcc:
+
+/usr/include/c++/9/deque:
+
+/usr/include/c++/9/bits/unique_lock.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/9/bits/istream.tcc:
+
+/usr/include/c++/9/bits/ostream.tcc:
+
+/usr/include/aarch64-linux-gnu/c++/9/bits/cpu_defines.h:
+
+/usr/include/c++/9/bits/ios_base.h:
+
+/usr/include/c++/9/iosfwd:
+
+/usr/include/aarch64-linux-gnu/bits/errno.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/9/debug/assertions.h:
+
+/usr/include/c++/9/string:
+
+/usr/include/opencv4/opencv2/flann/any.h:
+
+/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
+
+/home/fatfat/RoboGrinders/video_recording/src/VideoRecorder.cpp:
+
+/usr/include/aarch64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/9/ext/type_traits.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/9/bits/stl_algobase.h:
+
+/usr/include/c++/9/ext/concurrence.h:
 
 /usr/include/opencv4/opencv2/photo.hpp:
 
@@ -1036,25 +924,19 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/linux/limits.h:
 
-/usr/include/aarch64-linux-gnu/bits/endianness.h:
+/usr/include/opencv4/opencv2/flann/miniflann.hpp:
 
-/usr/include/c++/9/bits/exception.h:
+/usr/include/aarch64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/ctype.h:
+/usr/include/aarch64-linux-gnu/bits/long-double.h:
 
-/usr/include/aarch64-linux-gnu/bits/local_lim.h:
+/usr/include/opencv4/opencv2/core/utility.hpp:
 
-/usr/include/c++/9/bits/stl_heap.h:
+/usr/local/include/librealsense2/h/rs_device.h:
 
-/usr/include/c++/9/bits/basic_ios.tcc:
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/c++/9/bits/alloc_traits.h:
-
-/usr/include/aarch64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/9/bits/shared_ptr_base.h:
-
-/usr/include/aarch64-linux-gnu/sys/cdefs.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/9/bits/stl_queue.h:
 
@@ -1062,65 +944,115 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /home/fatfat/RoboGrinders/video_recording/src/VideoRecorder.h:
 
-/usr/local/include/librealsense2/rs.hpp:
+/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/aarch64-linux-gnu/asm/errno.h:
+/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/locale.h:
 
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/include/opencv4/opencv2/viz/viz3d.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
+/usr/include/aarch64-linux-gnu/bits/waitflags.h:
 
-/usr/include/c++/9/cwchar:
+/usr/include/c++/9/bits/hash_bytes.h:
 
-/usr/include/c++/9/bits/range_access.h:
+/usr/include/c++/9/bits/concept_check.h:
 
-/usr/include/c++/9/ext/atomicity.h:
+/usr/include/c++/9/unordered_map:
 
-/usr/include/opencv4/opencv2/flann/saving.h:
+/usr/include/c++/9/bits/refwrap.h:
 
-/usr/include/aarch64-linux-gnu/bits/time.h:
-
-/usr/include/c++/9/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/9/bits/shared_ptr_atomic.h:
-
-/usr/include/opencv4/opencv2/superres/optical_flow.hpp:
-
-/usr/include/c++/9/ratio:
+/usr/include/c++/9/clocale:
 
 /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
 
 /usr/include/c++/9/bits/localefwd.h:
 
-/usr/include/c++/9/bits/cxxabi_init_exception.h:
+/usr/include/c++/9/exception:
+
+/usr/include/c++/9/ios:
+
+/usr/include/c++/9/math.h:
+
+/usr/include/c++/9/mutex:
+
+/usr/include/opencv4/opencv2/core/neon_utils.hpp:
+
+/usr/include/c++/9/bits/stringfwd.h:
+
+/usr/include/c++/9/type_traits:
+
+/usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h:
+
+/home/fatfat/RoboGrinders/video_recording/main.cpp:
+
+/usr/include/aarch64-linux-gnu/sys/cdefs.h:
+
+/usr/include/c++/9/bits/codecvt.h:
+
+/usr/include/features.h:
+
+/usr/local/include/librealsense2/h/rs_option.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/c++/9/bits/std_abs.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
+
+/usr/local/include/librealsense2/h/rs_processing.h:
+
+/usr/include/opencv4/opencv2/viz/vizcore.hpp:
+
+/usr/local/include/librealsense2/hpp/rs_frame.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/9/bits/c++io.h:
+
+/usr/include/c++/9/bits/stl_iterator.h:
+
+/usr/include/c++/9/bits/stl_map.h:
+
+/usr/include/c++/9/bits/functexcept.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/9/bits/exception.h:
+
+/usr/include/c++/9/bits/move.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/9/bits/exception_ptr.h:
+
+/usr/include/opencv4/opencv2/flann/kmeans_index.h:
+
+/usr/include/opencv4/opencv2/core/persistence.hpp:
+
+/usr/include/c++/9/ext/numeric_traits.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/opencv4/opencv2/core/cuda.hpp:
+
+/usr/include/c++/9/bits/hashtable.h:
+
+/usr/include/time.h:
+
+/usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/9/include/stdbool.h:
 
 /usr/include/c++/9/bits/stl_construct.h:
 
-/usr/local/include/librealsense2/h/rs_record_playback.h:
+/usr/include/c++/9/bits/cxxabi_init_exception.h:
 
-/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
+/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/aarch64-linux-gnu/c++/9/bits/c++locale.h:
+/usr/include/c++/9/cstdio:
 
-/usr/include/aarch64-linux-gnu/bits/locale.h:
+/usr/include/opencv4/opencv2/flann/params.h:
 
-/usr/include/c++/9/initializer_list:
-
-/usr/include/c++/9/iosfwd:
-
-/usr/include/aarch64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/9/bits/predefined_ops.h:
-
-/usr/include/c++/9/cctype:
-
-/usr/include/c++/9/cwctype:
-
-/usr/include/c++/9/bits/ostream_insert.h:
-
-/usr/include/errno.h:
+/usr/include/c++/9/iterator:
 
 /usr/include/c++/9/bits/shared_ptr.h:
 
@@ -1130,43 +1062,67 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/streambuf.tcc:
 
-/usr/include/aarch64-linux-gnu/c++/9/bits/gthr.h:
+/usr/include/opencv4/opencv2/flann/timer.h:
 
-/usr/lib/gcc/aarch64-linux-gnu/9/include/stddef.h:
+/usr/include/c++/9/bits/allocator.h:
 
-/usr/include/aarch64-linux-gnu/c++/9/bits/gthr-default.h:
+/usr/local/include/librealsense2/hpp/rs_sensor.hpp:
 
-/usr/include/c++/9/streambuf:
+/usr/include/c++/9/bits/exception_defines.h:
 
-/usr/include/pthread.h:
+/usr/include/c++/9/bits/atomic_base.h:
 
-/usr/include/aarch64-linux-gnu/c++/9/bits/atomic_word.h:
+/usr/lib/gcc/aarch64-linux-gnu/9/include/syslimits.h:
 
-/usr/include/c++/9/queue:
+/usr/include/c++/9/bits/locale_facets_nonio.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/c++/9/new:
 
-/usr/include/aarch64-linux-gnu/bits/cpu-set.h:
+/usr/include/c++/9/bits/cpp_type_traits.h:
 
-/usr/include/opencv4/opencv2/core/cuda.hpp:
+/usr/include/c++/9/bits/nested_exception.h:
 
-/usr/include/c++/9/bits/hashtable.h:
+/usr/include/math.h:
 
-/usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
+/usr/include/aarch64-linux-gnu/bits/typesizes.h:
 
-/usr/include/time.h:
+/usr/include/c++/9/bits/char_traits.h:
 
-/usr/include/c++/9/unordered_map:
+/usr/include/c++/9/bits/stl_pair.h:
 
-/usr/include/c++/9/clocale:
+/usr/include/c++/9/bits/ptr_traits.h:
 
-/usr/include/c++/9/bits/refwrap.h:
+/usr/include/c++/9/ctime:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+/usr/include/c++/9/bits/stl_heap.h:
 
-/usr/include/c++/9/bits/stl_raw_storage_iter.h:
+/usr/include/c++/9/bits/alloc_traits.h:
 
-/usr/include/c++/9/ext/string_conversions.h:
+/usr/include/c++/9/bits/basic_ios.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/9/bits/shared_ptr_base.h:
+
+/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/aarch64-linux-gnu/c++/9/bits/c++locale.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
+
+/usr/local/include/librealsense2/h/rs_record_playback.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+
+/usr/include/aarch64-linux-gnu/sys/select.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/local/include/librealsense2/h/rs_context.h:
+
+/usr/include/opencv4/opencv2/ml.hpp:
+
+/usr/include/c++/9/array:
 
 /usr/include/stdio.h:
 
@@ -1202,73 +1158,21 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/utility:
 
-/usr/include/opencv4/opencv2/flann/linear_index.h:
-
-/usr/include/c++/9/bits/stl_uninitialized.h:
-
-/usr/include/c++/9/bits/stl_deque.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/c++/9/bits/stl_bvector.h:
-
-/usr/include/c++/9/bits/stl_tree.h:
-
-/usr/include/c++/9/cstdint:
-
-/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/c++/9/bits/stl_vector.h:
-
-/usr/include/c++/9/cstdlib:
-
-/usr/include/c++/9/bits/stl_tempbuf.h:
-
-/usr/include/c++/9/bits/uses_allocator.h:
-
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
-
-/usr/include/c++/9/bits/stl_list.h:
-
-/usr/include/c++/9/bits/unique_ptr.h:
-
-/usr/include/opencv4/opencv2/flann/defines.h:
-
-/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/9/bits/stl_relops.h:
-
-/usr/include/c++/9/bits/stl_function.h:
-
-/usr/include/c++/9/tuple:
-
-/usr/include/c++/9/stdexcept:
-
-/usr/include/opencv4/opencv2/objdetect.hpp:
-
-/usr/include/c++/9/functional:
-
-/usr/include/c++/9/bits/invoke.h:
-
-/usr/include/c++/9/bits/allocated_ptr.h:
-
-/usr/include/c++/9/ext/aligned_buffer.h:
-
-/usr/include/c++/9/bits/std_function.h:
-
 /usr/include/c++/9/bits/locale_classes.tcc:
 
 /usr/local/include/librealsense2/hpp/rs_pipeline.hpp:
 
 /usr/include/aarch64-linux-gnu/c++/9/bits/error_constants.h:
 
-/usr/local/include/librealsense2/h/rs_sensor.h:
-
-/usr/include/c++/9/bits/basic_ios.h:
+/usr/include/c++/9/stdexcept:
 
 /usr/include/c++/9/bits/locale_facets.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/9/bits/uses_allocator.h:
 
 /usr/include/c++/9/bits/list.tcc:
 
@@ -1286,6 +1190,118 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/istream:
 
+/usr/include/c++/9/algorithm:
+
+/usr/include/c++/9/chrono:
+
+/usr/include/c++/9/bits/cxxabi_forced.h:
+
+/usr/include/limits.h:
+
+/usr/include/c++/9/limits:
+
+/usr/include/c++/9/iostream:
+
+/usr/include/c++/9/bits/parse_numbers.h:
+
+/usr/include/aarch64-linux-gnu/asm/errno.h:
+
+/usr/local/include/librealsense2/rs.hpp:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs.h:
+
+/usr/include/aarch64-linux-gnu/bits/math-vector.h:
+
+/usr/include/opencv4/opencv2/videostab/motion_stabilizing.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/9/bits/stl_iterator_base_types.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/local/include/librealsense2/hpp/rs_context.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/aarch64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/aarch64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/9/vector:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/opencv4/opencv2/flann/flann_base.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/timex.h:
+
+/usr/local/include/librealsense2/h/rs_types.h:
+
+/usr/include/c++/9/bits/basic_ios.h:
+
+/usr/local/include/librealsense2/h/rs_sensor.h:
+
+/usr/local/include/librealsense2/hpp/rs_types.hpp:
+
+/usr/include/opencv4/opencv2/videostab/frame_source.hpp:
+
+/usr/include/c++/9/list:
+
+/usr/local/include/librealsense2/h/rs_pipeline.h:
+
+/usr/local/include/librealsense2/h/rs_config.h:
+
+/usr/include/opencv4/opencv2/flann/linear_index.h:
+
+/usr/include/c++/9/bits/stl_uninitialized.h:
+
+/usr/include/c++/9/bits/stl_deque.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/9/bits/stl_bvector.h:
+
+/usr/include/c++/9/bits/stl_tree.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/9/cstdint:
+
+/usr/include/c++/9/bits/stl_vector.h:
+
+/usr/include/c++/9/cstdlib:
+
+/usr/include/c++/9/bits/stl_tempbuf.h:
+
+/usr/include/c++/9/bits/stl_list.h:
+
+/usr/include/c++/9/bits/unique_ptr.h:
+
+/usr/include/opencv4/opencv2/flann/defines.h:
+
+/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/9/bits/stl_relops.h:
+
+/usr/include/c++/9/bits/stl_function.h:
+
+/usr/include/c++/9/tuple:
+
+/usr/include/opencv4/opencv2/objdetect.hpp:
+
+/usr/include/c++/9/functional:
+
+/usr/include/c++/9/bits/invoke.h:
+
+/usr/include/c++/9/bits/allocated_ptr.h:
+
+/usr/include/c++/9/ext/aligned_buffer.h:
+
+/usr/include/c++/9/bits/std_function.h:
+
 /usr/include/c++/9/typeinfo:
 
 /usr/include/c++/9/bits/atomic_lockfree_defines.h:
@@ -1293,20 +1309,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/c++/9/sstream:
 
 /usr/include/c++/9/bits/sstream.tcc:
-
-/usr/include/c++/9/algorithm:
-
-/usr/include/c++/9/chrono:
-
-/usr/include/limits.h:
-
-/usr/include/c++/9/bits/cxxabi_forced.h:
-
-/usr/include/c++/9/limits:
-
-/usr/include/c++/9/iostream:
-
-/usr/include/c++/9/bits/parse_numbers.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -1316,14 +1318,12 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/local/include/librealsense2/hpp/rs_options.hpp:
 
+/usr/include/opencv4/opencv2/opencv.hpp:
+
+/usr/include/opencv4/opencv2/opencv_modules.hpp:
+
 /usr/include/c++/9/bits/locale_facets.tcc:
 
 /usr/include/opencv4/opencv2/core.hpp:
 
 /usr/lib/gcc/aarch64-linux-gnu/9/include/limits.h:
-
-/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/c++/9/bits/basic_string.h:
-
-/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
