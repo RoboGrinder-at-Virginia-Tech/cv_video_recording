@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <chrono>
 #include <librealsense2/rs.hpp>
 #include <opencv2/opencv.hpp>
@@ -22,9 +23,7 @@ int VideoRecorder::record() try
 	cfg.enable_stream(RS2_STREAM_COLOR, 640, 480, RS2_FORMAT_BGR8, 30);
 	pipe->start(cfg);
 	
-	// Generate VideoWriter using filename, codec, fps, and framesize
-	VideoWriter videoWriter("video.mp4", VideoWriter::fourcc('m', 'p', '4', 'v'), 30.0, Size(640, 480), true);
-
+	
 	rs2::frameset frames;
 	rs2::frame color;
 	Mat image;
@@ -32,24 +31,36 @@ int VideoRecorder::record() try
     {
     	frames = pipe->wait_for_frames();
     }
+    int videoCount = 1;
+    bool recording = true;
+    while (recording) 
+    {
+    	std::cout << videoCount << std::endl;
 
- 	auto finish = std::chrono::system_clock::now() + 1min;
+		std::string filename = "video" + std::to_string(videoCount) + ".mp4";
+		// Generate VideoWriter using filename, codec, fps, and framesize
+		VideoWriter videoWriter(filename, VideoWriter::fourcc('m', 'p', '4', 'v'), 30.0, Size(640, 480), true);
 
-	while (std::chrono::system_clock::now() <= finish) 
-	{
-		frames = pipe->wait_for_frames();
-		color = frames.get_color_frame();
-		
-		image = Mat(Size(640, 480), CV_8UC3, (void*)color.get_data(), Mat::AUTO_STEP);
-		imshow("Display video", image);
+		videoCount++;
+	 	auto finish = std::chrono::system_clock::now() + 1min;
 
-		// Write frame to videoWriter
-		videoWriter.write(image);
+		while (std::chrono::system_clock::now() <= finish) 
+		{
+			frames = pipe->wait_for_frames();
+			color = frames.get_color_frame();
+			
+			image = Mat(Size(640, 480), CV_8UC3, (void*)color.get_data(), Mat::AUTO_STEP);
+			imshow("Display video", image);
 
-		if ((char)waitKey(1) == 27)
-			break;
+			// Write frame to videoWriter
+			videoWriter.write(image);
+			if ((char)waitKey(1) == 27)
+			{
+				recording = false;
+				break;
+			}
+		}
 	}
-
 	pipe->stop();
 	destroyAllWindows();
 

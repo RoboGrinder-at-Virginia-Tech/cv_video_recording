@@ -17,6 +17,7 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/aarch64-linux-gnu/gnu/stubs.h \
   /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
   /usr/include/aarch64-linux-gnu/c++/9/bits/cpu_defines.h \
+  /usr/include/c++/9/pstl/pstl_config.h \
   /usr/include/c++/9/ostream \
   /usr/include/c++/9/ios \
   /usr/include/c++/9/iosfwd \
@@ -118,12 +119,7 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/c++/9/bits/cxxabi_forced.h \
   /usr/include/c++/9/bits/stl_function.h \
   /usr/include/c++/9/backward/binders.h \
-  /usr/include/c++/9/bits/range_access.h \
-  /usr/include/c++/9/initializer_list \
-  /usr/include/c++/9/bits/basic_string.h \
-  /usr/include/c++/9/ext/alloc_traits.h \
-  /usr/include/c++/9/bits/alloc_traits.h \
-  /usr/include/c++/9/ext/string_conversions.h \
+  /usr/include/c++/9/bits/stl_algo.h \
   /usr/include/c++/9/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/aarch64-linux-gnu/bits/waitflags.h \
@@ -139,6 +135,21 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/alloca.h \
   /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/9/bits/std_abs.h \
+  /usr/include/c++/9/bits/algorithmfwd.h \
+  /usr/include/c++/9/initializer_list \
+  /usr/include/c++/9/bits/stl_heap.h \
+  /usr/include/c++/9/bits/stl_tempbuf.h \
+  /usr/include/c++/9/bits/stl_construct.h \
+  /usr/include/c++/9/ext/alloc_traits.h \
+  /usr/include/c++/9/bits/alloc_traits.h \
+  /usr/include/c++/9/bits/uniform_int_dist.h \
+  /usr/include/c++/9/limits \
+  /usr/include/c++/9/bits/range_access.h \
+  /usr/include/c++/9/bits/basic_string.h \
+  /usr/include/c++/9/string_view \
+  /usr/include/c++/9/bits/functional_hash.h \
+  /usr/include/c++/9/bits/string_view.tcc \
+  /usr/include/c++/9/ext/string_conversions.h \
   /usr/include/c++/9/cstdio \
   /usr/include/stdio.h \
   /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
@@ -155,7 +166,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
-  /usr/include/c++/9/bits/functional_hash.h \
   /usr/include/c++/9/bits/basic_string.tcc \
   /usr/include/c++/9/bits/locale_classes.tcc \
   /usr/include/c++/9/system_error \
@@ -178,7 +188,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/c++/9/bits/istream.tcc \
   /usr/include/c++/9/chrono \
   /usr/include/c++/9/ratio \
-  /usr/include/c++/9/limits \
   /usr/include/c++/9/ctime \
   /usr/include/c++/9/bits/parse_numbers.h \
   /usr/local/include/librealsense2/rs.hpp \
@@ -198,6 +207,19 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
   /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/9/bits/specfun.h \
+  /usr/include/c++/9/tr1/gamma.tcc \
+  /usr/include/c++/9/tr1/special_function_util.h \
+  /usr/include/c++/9/tr1/bessel_function.tcc \
+  /usr/include/c++/9/tr1/beta_function.tcc \
+  /usr/include/c++/9/tr1/ell_integral.tcc \
+  /usr/include/c++/9/tr1/exp_integral.tcc \
+  /usr/include/c++/9/tr1/hypergeometric.tcc \
+  /usr/include/c++/9/tr1/legendre_function.tcc \
+  /usr/include/c++/9/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/9/tr1/poly_hermite.tcc \
+  /usr/include/c++/9/tr1/poly_laguerre.tcc \
+  /usr/include/c++/9/tr1/riemann_zeta.tcc \
   /usr/lib/gcc/aarch64-linux-gnu/9/include/float.h \
   /usr/local/include/librealsense2/h/rs_types.h \
   /usr/local/include/librealsense2/h/rs_sensor.h \
@@ -221,19 +243,17 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/local/include/librealsense2/h/rs_pipeline.h \
   /usr/local/include/librealsense2/h/rs_config.h \
   /usr/include/c++/9/vector \
-  /usr/include/c++/9/bits/stl_construct.h \
   /usr/include/c++/9/bits/stl_uninitialized.h \
+  /usr/include/c++/9/utility \
+  /usr/include/c++/9/bits/stl_relops.h \
   /usr/include/c++/9/bits/stl_vector.h \
   /usr/include/c++/9/bits/stl_bvector.h \
   /usr/include/c++/9/bits/vector.tcc \
   /usr/include/c++/9/memory \
-  /usr/include/c++/9/bits/stl_tempbuf.h \
   /usr/include/c++/9/bits/stl_raw_storage_iter.h \
   /usr/include/c++/9/ext/concurrence.h \
   /usr/include/c++/9/bits/uses_allocator.h \
   /usr/include/c++/9/bits/unique_ptr.h \
-  /usr/include/c++/9/utility \
-  /usr/include/c++/9/bits/stl_relops.h \
   /usr/include/c++/9/tuple \
   /usr/include/c++/9/array \
   /usr/include/c++/9/bits/invoke.h \
@@ -246,8 +266,19 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/c++/9/bits/atomic_base.h \
   /usr/include/c++/9/bits/atomic_lockfree_defines.h \
   /usr/include/c++/9/backward/auto_ptr.h \
+  /usr/include/c++/9/bit \
+  /usr/include/c++/9/pstl/glue_memory_defs.h \
+  /usr/include/c++/9/pstl/execution_defs.h \
   /usr/include/c++/9/functional \
   /usr/include/c++/9/bits/std_function.h \
+  /usr/include/c++/9/unordered_map \
+  /usr/include/c++/9/bits/hashtable.h \
+  /usr/include/c++/9/bits/hashtable_policy.h \
+  /usr/include/c++/9/bits/node_handle.h \
+  /usr/include/c++/9/optional \
+  /usr/include/c++/9/bits/enable_special_members.h \
+  /usr/include/c++/9/bits/unordered_map.h \
+  /usr/include/c++/9/bits/erase_if.h \
   /usr/include/c++/9/iterator \
   /usr/include/c++/9/bits/stream_iterator.h \
   /usr/include/c++/9/sstream \
@@ -289,10 +320,7 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/opencv4/opencv2/core/base.hpp \
   /usr/include/c++/9/climits \
   /usr/include/c++/9/algorithm \
-  /usr/include/c++/9/bits/stl_algo.h \
-  /usr/include/c++/9/bits/algorithmfwd.h \
-  /usr/include/c++/9/bits/stl_heap.h \
-  /usr/include/c++/9/bits/uniform_int_dist.h \
+  /usr/include/c++/9/pstl/glue_algorithm_defs.h \
   /usr/include/opencv4/opencv2/core/cvstd.hpp \
   /usr/include/c++/9/cstring \
   /usr/include/string.h \
@@ -337,7 +365,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/c++/9/bits/stl_tree.h \
   /usr/include/c++/9/bits/stl_map.h \
   /usr/include/c++/9/bits/stl_multimap.h \
-  /usr/include/c++/9/bits/erase_if.h \
   /usr/include/opencv4/opencv2/dnn/layer.hpp \
   /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
   /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
@@ -381,10 +408,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
   /usr/include/c++/9/bits/locale_facets_nonio.tcc \
   /usr/include/c++/9/bits/locale_conv.h \
   /usr/include/c++/9/bits/quoted_string.h \
-  /usr/include/c++/9/unordered_map \
-  /usr/include/c++/9/bits/hashtable.h \
-  /usr/include/c++/9/bits/hashtable_policy.h \
-  /usr/include/c++/9/bits/unordered_map.h \
   /usr/include/opencv4/opencv2/flann/autotuned_index.h \
   /usr/include/opencv4/opencv2/flann/ground_truth.h \
   /usr/include/opencv4/opencv2/flann/index_testing.h \
@@ -520,19 +543,13 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/opencv4/opencv2/ml/ml.inl.hpp:
 
-/usr/include/opencv4/opencv2/videoio.hpp:
-
 /usr/include/opencv4/opencv2/imgcodecs.hpp:
 
 /usr/include/opencv4/opencv2/highgui.hpp:
 
 /usr/include/opencv4/opencv2/flann/sampling.h:
 
-/usr/include/opencv4/opencv2/flann/ground_truth.h:
-
 /usr/include/opencv4/opencv2/flann/autotuned_index.h:
-
-/usr/include/c++/9/bits/hashtable_policy.h:
 
 /usr/include/c++/9/bits/quoted_string.h:
 
@@ -549,10 +566,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/aarch64-linux-gnu/c++/9/bits/time_members.h:
 
 /usr/include/c++/9/locale:
-
-/usr/include/aarch64-linux-gnu/c++/9/bits/basic_file.h:
-
-/usr/include/opencv4/opencv2/flann/lsh_table.h:
 
 /usr/include/opencv4/opencv2/stitching/detail/util.hpp:
 
@@ -580,11 +593,7 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/stl_multiset.h:
 
-/usr/include/c++/9/bits/stl_set.h:
-
 /usr/include/c++/9/set:
-
-/usr/include/opencv4/opencv2/flann/result_set.h:
 
 /usr/include/opencv4/opencv2/videostab/deblurring.hpp:
 
@@ -601,8 +610,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp:
 
 /usr/include/opencv4/opencv2/dnn/layer.hpp:
-
-/usr/include/c++/9/bits/erase_if.h:
 
 /usr/include/c++/9/bits/stl_multimap.h:
 
@@ -674,11 +681,9 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/opencv4/opencv2/core/cvstd.hpp:
 
-/usr/include/c++/9/bits/stl_algo.h:
+/usr/include/opencv4/opencv2/flann/ground_truth.h:
 
-/usr/include/c++/9/bits/uniform_int_dist.h:
-
-/usr/include/c++/9/climits:
+/usr/include/c++/9/pstl/glue_algorithm_defs.h:
 
 /usr/include/opencv4/opencv2/core/base.hpp:
 
@@ -694,9 +699,61 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/opencv4/opencv2/core/hal/interface.h:
 
+/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/aarch64-linux-gnu/bits/local_lim.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/9/include/syslimits.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/9/include/limits.h:
+
+/usr/include/opencv4/opencv2/core/cvdef.h:
+
+/usr/include/opencv4/opencv2/opencv_modules.hpp:
+
+/usr/include/opencv4/opencv2/opencv.hpp:
+
+/usr/local/include/librealsense2/hpp/rs_pipeline.hpp:
+
+/usr/local/include/librealsense2/hpp/rs_options.hpp:
+
+/usr/local/include/librealsense2/hpp/rs_processing.hpp:
+
+/usr/include/opencv4/opencv2/viz/vizcore.hpp:
+
+/usr/local/include/librealsense2/hpp/rs_frame.hpp:
+
+/usr/local/include/librealsense2/hpp/rs_record_playback.hpp:
+
+/usr/include/c++/9/bits/sstream.tcc:
+
+/usr/include/opencv4/opencv2/flann/params.h:
+
+/usr/include/c++/9/iterator:
+
+/usr/include/c++/9/bits/erase_if.h:
+
+/usr/include/c++/9/optional:
+
 /usr/include/aarch64-linux-gnu/bits/uio_lim.h:
 
-/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
+/usr/include/c++/9/bits/node_handle.h:
+
+/usr/include/c++/9/bits/hashtable_policy.h:
+
+/usr/include/c++/9/bits/std_function.h:
+
+/usr/include/aarch64-linux-gnu/bits/select.h:
+
+/usr/include/c++/9/bits/stream_iterator.h:
+
+/usr/include/aarch64-linux-gnu/bits/timesize.h:
+
+/usr/include/c++/9/tr1/gamma.tcc:
+
+/usr/include/c++/9/bits/shared_ptr_base.h:
 
 /usr/local/include/librealsense2/rs.h:
 
@@ -707,16 +764,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/alloca.h:
 
 /usr/local/include/librealsense2/rsutil.h:
-
-/usr/local/include/librealsense2/hpp/rs_record_playback.hpp:
-
-/usr/include/c++/9/ext/alloc_traits.h:
-
-/usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/c++/9/initializer_list:
-
-/usr/include/aarch64-linux-gnu/bits/locale.h:
 
 /usr/include/errno.h:
 
@@ -730,6 +777,10 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/pthread.h:
 
+/usr/include/opencv4/opencv2/videoio.hpp:
+
+/usr/include/c++/9/bits/string_view.tcc:
+
 /usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/aarch64-linux-gnu/bits/setjmp.h:
@@ -742,17 +793,21 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h:
 
+/usr/include/c++/9/tr1/modified_bessel_func.tcc:
+
 /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
 
+/usr/include/c++/9/bits/postypes.h:
+
 /usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/c++/9/bits/basic_string.h:
 
-/usr/include/c++/9/bits/postypes.h:
+/usr/include/c++/9/tr1/exp_integral.tcc:
 
 /usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
@@ -765,10 +820,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/aarch64-linux-gnu/bits/iscanonical.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/9/include/float.h:
-
-/usr/include/c++/9/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/9/ext/string_conversions.h:
 
 /usr/include/aarch64-linux-gnu/bits/sched.h:
 
@@ -794,21 +845,25 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/aarch64-linux-gnu/bits/endianness.h:
 
-/usr/include/aarch64-linux-gnu/bits/local_lim.h:
+/usr/include/opencv4/opencv2/flann/general.h:
 
 /usr/include/c++/9/bits/unordered_map.h:
-
-/usr/include/opencv4/opencv2/flann/general.h:
 
 /usr/include/aarch64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/9/ostream:
 
+/usr/local/include/librealsense2/hpp/rs_device.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
+
 /usr/include/c++/9/cwctype:
 
 /usr/include/aarch64-linux-gnu/sys/types.h:
 
-/usr/include/opencv4/opencv2/core/cvdef.h:
+/usr/include/c++/9/bits/stl_algo.h:
+
+/usr/include/c++/9/type_traits:
 
 /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
 
@@ -830,25 +885,15 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/shared_ptr_atomic.h:
 
-/usr/include/aarch64-linux-gnu/bits/select.h:
-
 /usr/include/opencv4/opencv2/dnn/version.hpp:
 
 /usr/lib/gcc/aarch64-linux-gnu/9/include/stdint.h:
 
 /usr/include/c++/9/debug/debug.h:
 
-/usr/include/c++/9/cctype:
-
-/usr/include/c++/9/bits/predefined_ops.h:
-
 /usr/include/aarch64-linux-gnu/c++/9/bits/gthr-default.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/9/include/stddef.h:
-
-/usr/include/aarch64-linux-gnu/bits/timesize.h:
-
-/usr/include/c++/9/bits/stream_iterator.h:
 
 /usr/include/opencv4/opencv2/imgproc.hpp:
 
@@ -874,6 +919,10 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/vector.tcc:
 
+/usr/include/c++/9/cctype:
+
+/usr/include/c++/9/bits/predefined_ops.h:
+
 /usr/include/c++/9/deque:
 
 /usr/include/c++/9/bits/unique_lock.h:
@@ -892,17 +941,41 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/aarch64-linux-gnu/bits/errno.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/c++/9/bits/ptr_traits.h:
 
-/usr/include/c++/9/debug/assertions.h:
+/usr/include/c++/9/ctime:
 
-/usr/include/c++/9/string:
+/usr/include/c++/9/bits/stl_map.h:
+
+/usr/include/c++/9/bits/functexcept.h:
+
+/usr/include/aarch64-linux-gnu/c++/9/bits/c++io.h:
+
+/usr/include/c++/9/bits/stl_iterator.h:
+
+/usr/include/opencv4/opencv2/flann/result_set.h:
+
+/usr/include/c++/9/pstl/pstl_config.h:
+
+/usr/include/c++/9/tr1/hypergeometric.tcc:
+
+/usr/include/c++/9/bits/uses_allocator.h:
+
+/usr/include/aarch64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/9/initializer_list:
 
 /usr/include/opencv4/opencv2/flann/any.h:
 
 /usr/include/aarch64-linux-gnu/bits/floatn-common.h:
 
 /home/fatfat/RoboGrinders/video_recording/src/VideoRecorder.cpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/9/debug/assertions.h:
+
+/usr/include/c++/9/string:
 
 /usr/include/aarch64-linux-gnu/bits/wordsize.h:
 
@@ -911,6 +984,14 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/9/bits/stl_algobase.h:
+
+/usr/local/include/librealsense2/hpp/rs_context.hpp:
+
+/usr/include/c++/9/pstl/glue_memory_defs.h:
+
+/usr/include/c++/9/bits/stl_iterator_base_types.h:
+
+/usr/include/stdc-predef.h:
 
 /usr/include/c++/9/ext/concurrence.h:
 
@@ -921,8 +1002,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/stdint.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/linux/limits.h:
 
 /usr/include/opencv4/opencv2/flann/miniflann.hpp:
 
@@ -938,17 +1017,13 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
 
+/usr/include/c++/9/tr1/special_function_util.h:
+
 /usr/include/c++/9/bits/stl_queue.h:
 
 /usr/include/opencv4/opencv2/core/affine.hpp:
 
 /home/fatfat/RoboGrinders/video_recording/src/VideoRecorder.h:
-
-/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/locale.h:
 
 /usr/include/opencv4/opencv2/viz/viz3d.hpp:
 
@@ -964,11 +1039,9 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/clocale:
 
-/usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+/usr/include/aarch64-linux-gnu/sys/select.h:
 
-/usr/include/c++/9/bits/localefwd.h:
-
-/usr/include/c++/9/exception:
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
 
 /usr/include/c++/9/ios:
 
@@ -980,7 +1053,11 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/stringfwd.h:
 
-/usr/include/c++/9/type_traits:
+/usr/include/aarch64-linux-gnu/c++/9/bits/c++locale.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
+
+/usr/local/include/librealsense2/h/rs_record_playback.h:
 
 /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h:
 
@@ -990,9 +1067,17 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/codecvt.h:
 
+/usr/include/c++/9/bits/enable_special_members.h:
+
 /usr/include/features.h:
 
 /usr/local/include/librealsense2/h/rs_option.h:
+
+/usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+
+/usr/include/c++/9/bits/localefwd.h:
+
+/usr/include/c++/9/exception:
 
 /usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
 
@@ -1002,18 +1087,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/local/include/librealsense2/h/rs_processing.h:
 
-/usr/include/opencv4/opencv2/viz/vizcore.hpp:
-
-/usr/local/include/librealsense2/hpp/rs_frame.hpp:
-
-/usr/include/aarch64-linux-gnu/c++/9/bits/c++io.h:
-
-/usr/include/c++/9/bits/stl_iterator.h:
-
-/usr/include/c++/9/bits/stl_map.h:
-
-/usr/include/c++/9/bits/functexcept.h:
-
 /usr/include/ctype.h:
 
 /usr/include/c++/9/bits/exception.h:
@@ -1021,6 +1094,12 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/c++/9/bits/move.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/9/sstream:
+
+/usr/include/c++/9/typeinfo:
+
+/usr/include/c++/9/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/9/bits/exception_ptr.h:
 
@@ -1050,9 +1129,9 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/cstdio:
 
-/usr/include/opencv4/opencv2/flann/params.h:
+/usr/include/wctype.h:
 
-/usr/include/c++/9/iterator:
+/usr/include/sched.h:
 
 /usr/include/c++/9/bits/shared_ptr.h:
 
@@ -1061,6 +1140,8 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/opencv4/opencv2/videostab.hpp:
 
 /usr/include/c++/9/bits/streambuf.tcc:
+
+/usr/include/c++/9/tr1/poly_laguerre.tcc:
 
 /usr/include/opencv4/opencv2/flann/timer.h:
 
@@ -1072,13 +1153,25 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/atomic_base.h:
 
-/usr/lib/gcc/aarch64-linux-gnu/9/include/syslimits.h:
-
 /usr/include/c++/9/bits/locale_facets_nonio.h:
 
 /usr/include/c++/9/new:
 
 /usr/include/c++/9/bits/cpp_type_traits.h:
+
+/usr/include/opencv4/opencv2/core.hpp:
+
+/usr/include/c++/9/bits/locale_facets.tcc:
+
+/usr/include/aarch64-linux-gnu/c++/9/bits/basic_file.h:
+
+/usr/include/opencv4/opencv2/flann/lsh_table.h:
+
+/usr/include/c++/9/tr1/poly_hermite.tcc:
+
+/usr/include/c++/9/bits/specfun.h:
+
+/usr/include/c++/9/pstl/execution_defs.h:
 
 /usr/include/c++/9/bits/nested_exception.h:
 
@@ -1090,32 +1183,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/stl_pair.h:
 
-/usr/include/c++/9/bits/ptr_traits.h:
-
-/usr/include/c++/9/ctime:
-
-/usr/include/c++/9/bits/stl_heap.h:
-
-/usr/include/c++/9/bits/alloc_traits.h:
-
-/usr/include/c++/9/bits/basic_ios.tcc:
-
-/usr/include/aarch64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/9/bits/shared_ptr_base.h:
-
-/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/aarch64-linux-gnu/c++/9/bits/c++locale.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
-
-/usr/local/include/librealsense2/h/rs_record_playback.h:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
-
-/usr/include/aarch64-linux-gnu/sys/select.h:
-
 /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/local/include/librealsense2/h/rs_context.h:
@@ -1123,6 +1190,48 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/opencv4/opencv2/ml.hpp:
 
 /usr/include/c++/9/array:
+
+/usr/include/c++/9/cstdlib:
+
+/usr/include/c++/9/bits/stl_tempbuf.h:
+
+/usr/include/c++/9/ext/alloc_traits.h:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/9/bits/basic_ios.tcc:
+
+/usr/include/c++/9/bits/stl_heap.h:
+
+/usr/include/c++/9/bits/alloc_traits.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/locale.h:
+
+/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/9/climits:
+
+/usr/include/c++/9/bits/uniform_int_dist.h:
+
+/usr/include/limits.h:
+
+/usr/include/c++/9/bits/cxxabi_forced.h:
+
+/usr/include/c++/9/limits:
+
+/usr/include/c++/9/string_view:
+
+/usr/include/c++/9/iomanip:
+
+/usr/include/c++/9/bits/functional_hash.h:
+
+/usr/include/c++/9/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/9/ext/string_conversions.h:
 
 /usr/include/stdio.h:
 
@@ -1148,10 +1257,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/c++/9/iomanip:
-
-/usr/include/c++/9/bits/functional_hash.h:
-
 /usr/include/c++/9/cstddef:
 
 /usr/include/c++/9/bits/basic_string.tcc:
@@ -1160,19 +1265,11 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/locale_classes.tcc:
 
-/usr/local/include/librealsense2/hpp/rs_pipeline.hpp:
-
 /usr/include/aarch64-linux-gnu/c++/9/bits/error_constants.h:
 
 /usr/include/c++/9/stdexcept:
 
 /usr/include/c++/9/bits/locale_facets.h:
-
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
-
-/usr/include/c++/9/bits/uses_allocator.h:
 
 /usr/include/c++/9/bits/list.tcc:
 
@@ -1194,12 +1291,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/chrono:
 
-/usr/include/c++/9/bits/cxxabi_forced.h:
-
-/usr/include/limits.h:
-
-/usr/include/c++/9/limits:
-
 /usr/include/c++/9/iostream:
 
 /usr/include/c++/9/bits/parse_numbers.h:
@@ -1216,12 +1307,6 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/9/bits/stl_iterator_base_types.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/local/include/librealsense2/hpp/rs_context.hpp:
-
 /usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/aarch64-linux-gnu/bits/fp-logb.h:
@@ -1233,6 +1318,20 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 /usr/include/c++/9/vector:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/9/bits/stl_set.h:
+
+/usr/include/c++/9/tr1/bessel_function.tcc:
+
+/usr/include/c++/9/tr1/beta_function.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/9/tr1/legendre_function.tcc:
+
+/usr/include/c++/9/tr1/ell_integral.tcc:
+
+/usr/include/c++/9/tr1/riemann_zeta.tcc:
 
 /usr/include/opencv4/opencv2/flann/flann_base.hpp:
 
@@ -1264,6 +1363,12 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/stl_bvector.h:
 
+/usr/include/opencv4/opencv2/flann/defines.h:
+
+/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/9/bits/stl_relops.h:
+
 /usr/include/c++/9/bits/stl_tree.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
@@ -1272,19 +1377,9 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/bits/stl_vector.h:
 
-/usr/include/c++/9/cstdlib:
-
-/usr/include/c++/9/bits/stl_tempbuf.h:
-
 /usr/include/c++/9/bits/stl_list.h:
 
 /usr/include/c++/9/bits/unique_ptr.h:
-
-/usr/include/opencv4/opencv2/flann/defines.h:
-
-/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/9/bits/stl_relops.h:
 
 /usr/include/c++/9/bits/stl_function.h:
 
@@ -1300,30 +1395,4 @@ CMakeFiles/video_record.dir/src/VideoRecorder.cpp.o: /home/fatfat/RoboGrinders/v
 
 /usr/include/c++/9/ext/aligned_buffer.h:
 
-/usr/include/c++/9/bits/std_function.h:
-
-/usr/include/c++/9/typeinfo:
-
-/usr/include/c++/9/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/9/sstream:
-
-/usr/include/c++/9/bits/sstream.tcc:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/local/include/librealsense2/hpp/rs_device.hpp:
-
-/usr/local/include/librealsense2/hpp/rs_processing.hpp:
-
-/usr/local/include/librealsense2/hpp/rs_options.hpp:
-
-/usr/include/opencv4/opencv2/opencv.hpp:
-
-/usr/include/opencv4/opencv2/opencv_modules.hpp:
-
-/usr/include/c++/9/bits/locale_facets.tcc:
-
-/usr/include/opencv4/opencv2/core.hpp:
-
-/usr/lib/gcc/aarch64-linux-gnu/9/include/limits.h:
+/usr/include/c++/9/bit:

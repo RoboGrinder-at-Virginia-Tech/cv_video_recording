@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 project(video_recording)
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
 find_package(realsense2 REQUIRED)
 find_package(OpenCV REQUIRED)

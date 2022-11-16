@@ -5,7 +5,6 @@ class VideoRecorder
 {
 public:
 	VideoRecorder();
-
 private:
 	int record();
 };
